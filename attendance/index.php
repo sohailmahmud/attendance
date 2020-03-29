@@ -21,7 +21,6 @@
     <link href="navbar-fixed-top.css" rel="stylesheet">
  </head>
  <body>
- 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -37,8 +36,6 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.php">Home</a></li>
-           
-          
           </ul>
         </div><!--/.nav-collapse -->
       </div>
