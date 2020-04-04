@@ -43,6 +43,7 @@
     </div>  
   </nav> 
   <div class="container">
+    
     <h2> You can edit details of your classes here. </h2>
     <?php
       $classes = $_SESSION['classes'];
