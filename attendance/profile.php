@@ -39,8 +39,7 @@
             
 			<li><a href="statistics.php">Statistics</a></li>
 		
-			<li><a href="logout.php">Logout</a></li>
-          
+		  <li><a href="logout.php">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
