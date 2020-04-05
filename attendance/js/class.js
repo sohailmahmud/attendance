@@ -7,7 +7,6 @@ $(document).ready(function() {
   $('input[name=code],input[name=year],input[name=semester],input[name=section]').on('keyup',function() {
     $(this).parent().find('.update').html('Update');
   });
-  
 });
 function updateClass() {
   $('.update').click(function() {
