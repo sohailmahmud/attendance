@@ -10,7 +10,6 @@ DEFINE('CODE',4);
 DEFINE('NAME',5);
 DEFINE('NUMBER',6);
 
-
 function connectTo() {
 /*
  Does -> Connects to data base
