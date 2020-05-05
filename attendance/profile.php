@@ -44,7 +44,6 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav></br></br></br></br>
-  
   <div class="container">
     <?php
       $name = $_SESSION['name'];
