@@ -41,8 +41,7 @@
            
 			<li class="active"><a href="statistics.php">Statistics</a></li>
 			
-			<li><a href="logout.php">Logout</a></li>
-          
+		  <li><a href="logout.php">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -87,7 +86,7 @@
             </div>
             <div id="detained">';
           foreach($data as $class => $d) {
-            echo '<div class="classes">'.$class.' <span class="badge">'.($d['detained']==0?0:count($d['detained'])).'</span> <div class="list">';
+            echo  '<div class="classes">'.$class.' <span class="badge">'.($d['detained']==0?0:count($d['detained'])).'</span> <div class="list">';
             if($d['detained'] !=0)
               foreach($d['detained'] as $roll => $percent) {
                 echo '<p>'.$roll.' ( '.$percent.' % )</p>';
